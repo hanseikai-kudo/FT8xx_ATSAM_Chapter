@@ -3,7 +3,6 @@
 ----------
 
 Chapter 6_1
-
 [![](https://img.youtube.com/vi/E4pOP-m-ok4/0.jpg)]
 (https://www.youtube.com/watch?v=E4pOP-m-ok4)
 
