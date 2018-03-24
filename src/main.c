@@ -30,9 +30,11 @@
 extern const unsigned char flog_16bit_96x96[];
 
 
-#define SIZE_OF_GEAR (0x11370)
-extern const unsigned char gear2_jpg_480_272[];
+//#define SIZE_OF_GEAR (0x11370)
+//extern const unsigned char gear2_jpg_480_272[];
 
+#define SIZE_OF_MAJI_TEN (0x13540)
+extern const unsigned char maji_ten_480_272[];
 
 
 GPIO_INIT_TABLE test[]=
@@ -220,7 +222,8 @@ int main (void)
 	float f_sin,f_cos,rad;
 	float f_deg;
 
-	JpegLoad( 1, &gear2_jpg_480_272[0], RAM_G+0x00000000, SIZE_OF_GEAR );
+//	JpegLoad( 1, &gear2_jpg_480_272[0], RAM_G+0x00000000, SIZE_OF_GEAR );
+	JpegLoad( 1, &maji_ten_480_272[0], RAM_G+0x00000000, SIZE_OF_MAJI_TEN );
 
 	do
 	{

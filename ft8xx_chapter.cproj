@@ -519,7 +519,7 @@
     <Compile Include="src\FT8XX_jpeg.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\gear2_jpg.c">
+    <Compile Include="src\maji_ten.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\user_clock.c">
