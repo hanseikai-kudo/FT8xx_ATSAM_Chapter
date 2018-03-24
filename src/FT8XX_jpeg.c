@@ -40,8 +40,8 @@ unsigned short JpegLoad( int handle, unsigned char *src, unsigned long dst_offse
 	}while (cmdBufferWr != cmdBufferRd);
 	cmdOffset = cmdBufferWr;
 
-	HostMemWriteDoubleWord(RAM_CMD + cmdOffset, (CMD_DLSTART));
-	cmdOffset = incCMDOffset(cmdOffset, 4);
+//	HostMemWriteDoubleWord(RAM_CMD + cmdOffset, (CMD_DLSTART));
+//	cmdOffset = incCMDOffset(cmdOffset, 4);
 
 //	HostMemWriteDoubleWord(RAM_CMD + cmdOffset, (DL_CLEAR_RGB | BLACK));
 //	cmdOffset = incCMDOffset(cmdOffset, 4);
