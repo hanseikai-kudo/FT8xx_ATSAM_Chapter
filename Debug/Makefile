@@ -85,7 +85,6 @@ C_SRCS +=  \
 ../src/export_flog_bmp.c \
 ../src/FT8XX.c \
 ../src/FT8XX_jpeg.c \
-../src/gear2_jpg.c \
 ../src/maji_ten.c \
 ../src/user_clock.c \
 ../src/user_gpio.c \
@@ -113,7 +112,6 @@ OBJS +=  \
 src/export_flog_bmp.o \
 src/FT8XX.o \
 src/FT8XX_jpeg.o \
-src/gear2_jpg.o \
 src/maji_ten.o \
 src/user_clock.o \
 src/user_gpio.o \
@@ -134,7 +132,6 @@ OBJS_AS_ARGS +=  \
 src/export_flog_bmp.o \
 src/FT8XX.o \
 src/FT8XX_jpeg.o \
-src/gear2_jpg.o \
 src/maji_ten.o \
 src/user_clock.o \
 src/user_gpio.o \
@@ -155,7 +152,6 @@ C_DEPS +=  \
 src/export_flog_bmp.d \
 src/FT8XX.d \
 src/FT8XX_jpeg.d \
-src/gear2_jpg.d \
 src/maji_ten.d \
 src/user_clock.d \
 src/user_gpio.d \
@@ -176,7 +172,6 @@ C_DEPS_AS_ARGS +=  \
 src/export_flog_bmp.d \
 src/FT8XX.d \
 src/FT8XX_jpeg.d \
-src/gear2_jpg.d \
 src/maji_ten.d \
 src/user_clock.d \
 src/user_gpio.d \
@@ -208,8 +203,6 @@ LINKER_SCRIPT_DEP+=  \
 
 
 # AVR32/GNU C Compiler
-
-
 
 
 

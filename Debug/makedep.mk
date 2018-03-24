@@ -8,8 +8,6 @@ src\FT8XX.c
 
 src\FT8XX_jpeg.c
 
-src\gear2_jpg.c
-
 src\maji_ten.c
 
 src\user_clock.c

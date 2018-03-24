@@ -21,8 +21,8 @@
 #define CHAPTER_6C 0
 #define CHAPTER_7A 0
 #define CHAPTER_7B 0
-#define CHAPTER_8A 0
-#define CHAPTER_8B 1
+#define CHAPTER_8A 1
+#define CHAPTER_8B 0
 
 
 
@@ -299,7 +299,7 @@ int main (void)
 
 #if CHAPTER_8A
 
-	JpegLoad( 1, &gear2_jpg_480_272[0], RAM_G+0x00000000, SIZE_OF_GEAR );
+	JpegLoad( 1, &maji_ten_480_272[0], RAM_G+0x00000000, SIZE_OF_MAJI_TEN );
 
 	do
 	{
