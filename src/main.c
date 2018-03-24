@@ -21,8 +21,8 @@
 #define CHAPTER_6C 0
 #define CHAPTER_7A 0
 #define CHAPTER_7B 0
-#define CHAPTER_8A 1
-#define CHAPTER_8B 0
+#define CHAPTER_8A 0
+#define CHAPTER_8B 1
 
 
 
